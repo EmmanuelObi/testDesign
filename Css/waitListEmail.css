@@ -6,7 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-div.container-fluid {
+div.container {
   background-color: #f5f7fa;
   width: 650px;
   max-width: 90%;
@@ -22,7 +22,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 0px;
+  margin: 0 auto;
 }
 main.main .header {
   margin-bottom: 40px;
@@ -60,6 +60,7 @@ main.main section p {
   color: #46586b;
   font-weight: 400;
   font-size: 16px;
+  padding: 15px 0;
 }
 main.main section a {
   text-decoration: none;
@@ -106,7 +107,7 @@ footer span {
 }
 
 @media only screen and (max-width: 380px) {
-  div.container-fluid {
+  div.container {
     max-width: 100%;
   }
   main.main section a {
