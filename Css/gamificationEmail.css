@@ -53,8 +53,9 @@ main.main section > div span img {
   width: 100%;
 }
 main.main section h2 {
+  font-family: "SF Pro Display", sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   color: #222d38;
   margin-bottom: 20px;
   display: flex;
@@ -84,9 +85,10 @@ main.main div.social-btns .share {
   margin-bottom: 10px;
 }
 main.main section p {
+  font-family: "Open Sans";
   color: #46586b;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   padding: 15px 0;
 }
 main.main section a {
@@ -100,6 +102,7 @@ main.main section a {
   font-size: 16px;
   font-weight: 700;
   border-radius: 5px;
+  font-family: "SF Pro Text", sans-serif;
 }
 main.main section a.cta {
   width: 50px;
@@ -123,6 +126,7 @@ footer {
   margin-bottom: unset;
 }
 footer p {
+  font-family: "SF Pro Text", sans-serif;
   font-size: 12px;
   color: #46586b;
   font-weight: 400;

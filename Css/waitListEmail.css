@@ -31,6 +31,7 @@ main.main .header .logo img {
   width: 200px;
 }
 main.main section {
+  position: relative;
   height: 75%;
   display: flex;
   flex-direction: column;
@@ -38,7 +39,6 @@ main.main section {
 }
 main.main section div {
   width: 100%;
-  height: 50px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
@@ -46,11 +46,22 @@ main.main section div {
 main.main section div span {
   width: 10%;
 }
+main.main section .hour-glass {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  bottom: 10%;
+  right: 0;
+}
+main.main section .hour-glass img {
+  width: 100%;
+}
 
 main.main section div img {
   width: 100%;
 }
 main.main section h2 {
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 600;
   color: #222d38;
@@ -61,8 +72,10 @@ main.main section p {
   font-weight: 400;
   font-size: 16px;
   padding: 15px 0;
+  font-family: "Open Sans", sans-serif;
 }
 main.main section a {
+  font-family: "SF Pro Text", sans-serif;
   text-decoration: none;
   background-color: #53ab97;
   width: 182px;
@@ -78,7 +91,7 @@ main.main section a {
 footer {
   height: unset;
   background-color: unset;
-
+  font-family: "SF Pro Text", sans-serif;
   margin-bottom: unset;
 }
 footer p {
@@ -104,6 +117,7 @@ footer .download-links a img {
 footer span {
   font-size: 10px;
   font-weight: 400;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media only screen and (max-width: 380px) {
@@ -115,5 +129,15 @@ footer span {
   }
   main.main section p {
     font-size: 14px;
+  }
+  main.main section div span {
+    width: 20%;
+  }
+  main.main section .hour-glass {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 87%;
+    right: 10%;
   }
 }

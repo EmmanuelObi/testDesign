@@ -38,6 +38,7 @@ main.main section {
   justify-content: space-between;
 }
 main.main section h2 {
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 600;
   color: #222d38;
@@ -46,10 +47,12 @@ main.main section h2 {
 main.main section p {
   color: #46586b;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   padding: 15px 0;
+  font-family: "Open Sans", sans-serif;
 }
 main.main section a {
+  font-family: "SF Pro Text", sans-serif;
   text-decoration: none;
   background-color: #53ab97;
   width: 182px;
@@ -65,7 +68,7 @@ main.main section a {
 footer {
   height: unset;
   background-color: unset;
-
+  font-family: "SF Pro Text", sans-serif;
   margin-bottom: unset;
 }
 footer p {
@@ -91,6 +94,7 @@ footer .download-links a img {
 footer span {
   font-size: 10px;
   font-weight: 400;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media only screen and (max-width: 380px) {
@@ -102,5 +106,8 @@ footer span {
   }
   main.main section p {
     font-size: 14px;
+  }
+  footer span {
+    font-size: 9px;
   }
 }

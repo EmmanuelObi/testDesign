@@ -49,17 +49,19 @@ main.main section > div span img {
   width: 100%;
 }
 main.main section h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   color: #222d38;
   margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 main.main section p {
   color: #46586b;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   padding: 15px 0;
+  font-family: "Open Sans", sans-serif;
 }
 main.main section a {
   text-decoration: none;
@@ -84,7 +86,7 @@ main.main section a span img {
 footer {
   height: unset;
   background-color: unset;
-
+  font-family: "SF Pro Text", sans-serif;
   margin-bottom: unset;
 }
 footer p {
@@ -116,10 +118,16 @@ footer span {
   div.container {
     max-width: 100%;
   }
+  main.main section h2 {
+    font-size: 20px;
+  }
   main.main section a {
     width: 100%;
   }
   main.main section p {
     font-size: 14px;
+  }
+  footer span {
+    font-size: 9px;
   }
 }
